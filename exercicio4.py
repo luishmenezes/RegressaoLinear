@@ -28,7 +28,7 @@ residuos = y_test - y_pred_plot
 
 plt.figure(figsize=(12,5))
 
-# Resíduos
+
 plt.subplot(1,2,1)
 plt.scatter(y_pred_plot, residuos, alpha=0.5)
 plt.axhline(0, color='red', linestyle='--')
@@ -36,7 +36,7 @@ plt.xlabel("Valores preditos")
 plt.ylabel("Resíduos")
 plt.title("Resíduos vs Preditos")
 
-# Real vs Predito
+
 plt.subplot(1,2,2)
 plt.scatter(y_test, y_pred_plot, alpha=0.5)
 plt.plot([y_test.min(), y_test.max()],
