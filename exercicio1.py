@@ -31,7 +31,7 @@ mae = mean_absolute_error(y_test, y_pred)
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 r2 = r2_score(y_test, y_pred)
 
-print("\n=== Exercício 1 — Baseline ===")
+print("\n Exercício 1")
 print("MAE:", mae)
 print("RMSE:", rmse)
 print("R²:", r2)
